@@ -1,6 +1,7 @@
 " packadd quickscope
 
 " execute 'luafile ' . stdpath('config') . '/lua/settings.lua'
+set clipboard^=unnamed,unnamedplus
 
 function! s:manageEditorSize(...)
     let count = a:1
